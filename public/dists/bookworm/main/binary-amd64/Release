@@ -1,0 +1,5 @@
+Archive: bookworm
+Component: main
+Origin: Local
+Label: Local Repository
+Architecture: amd64
