@@ -1,0 +1,6 @@
+Origin: . local
+Label: . local
+Archive: local
+Suite: local
+Architecture: amd64
+Component: main

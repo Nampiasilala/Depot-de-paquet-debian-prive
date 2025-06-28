@@ -1,0 +1,24 @@
+Package: htop
+Priority: optional
+Section: utils
+Installed-Size: 378
+Maintainer: Daniel Lange <DLange@debian.org>
+Architecture: amd64
+Version: 3.2.2-2
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libtinfo6 (>= 6)
+Suggests: lm-sensors, lsof, strace
+Filename: pool/main/h/htop/htop_3.2.2-2_amd64.deb
+Size: 152412
+MD5sum: 8c0af9bce7a18ce14ead458dbc97185a
+SHA1: ca3e4bb7208ea633f4a863d9337e0242f82a6e1c
+SHA256: 03f3b6ed16e96621add9577c92349d7000d13b2ae341faa28a3dfe7f7a0ff7d2
+SHA512: d31fcef1df3a24d40d0e80af1967dc1ed79445a52911e9ef95e24eaf7edba15e18eb390e8cb83f7c4165647eb5f1e160898f35415c400a81229d0d2afdfdd7d8
+Description: interactive processes viewer
+ Htop is an ncursed-based process viewer similar to top, but it
+ allows one to scroll the list vertically and horizontally to see
+ all processes and their full command lines.
+ .
+ Tasks related to processes (killing, renicing) can be done without
+ entering their PIDs.
+Homepage: https://htop.dev/
+

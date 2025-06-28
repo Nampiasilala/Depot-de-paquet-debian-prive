@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  aptly-python:
+    image: python:3
+    command: python3 -m http.server 8000
+    volumes:
+      - ./aptly-data:/aptly
+    ports:
+      - "8080:8000"
+    networks:
+      - aptly-net
+
+  aptly-nginx:
+    image: nginx:stable
+    ports:
+      - "80:80"
+    volumes:
+      - ./aptly-data:/aptly:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - aptly-net
+
+networks:
+  aptly-net:
+    driver: bridge
+
