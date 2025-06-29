@@ -1,0 +1,42 @@
+# Fichiers système
+*.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# Fichiers système Linux
+*~
+
+# Docker
+*.tar
+*.img
+*.container
+docker-compose.override.yml
+
+# Node (au cas où tu utilises un outil JS plus tard)
+node_modules/
+
+# Python (au cas où tu utilises des scripts)
+__pycache__/
+*.py[cod]
+*.so
+.env
+
+# Fichiers de sauvegarde d'éditeurs
+*.bak
+*.old
+*.orig
+
+# Fichiers générés automatiquement
+Packages.gz
+Packages
+Release
+Release.gpg
+
+# Répertoires cachés
+.cache/
+.gitignore.swp
+
